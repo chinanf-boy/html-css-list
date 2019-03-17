@@ -1,0 +1,28 @@
+baseURL = "."
+languageCode = "zh-CN"
+title = "留存-关于 HTMl + Css 的技巧与示例"
+theme = "yinwang"
+publishDir= "docs" 
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"
+
+[params]
+    author = "yobrave Lee"
+    github = "chinanf-boy"
+    # gitlab = "yobrave"
+    googleAnalytics = "UA-128555056-1"
+    # 谷歌统计gtag
+    highlight = "atom-one-dark" # 默认样式 `github`
+    langs = ["go"]
+    # 默认加载 highlight.min.js，但 一些不支持的语言, 你自己添加,
+    # 其实也可以使用hugo自带的语法高亮器设置，不过我有点懒
+    # single = false
+    # 单页面的Home 按钮去除
+    # menus = true
+    # 我 想加更多目录
+    backgroundColor = "#fbf6ec"
+    # 加点黄黄的背景色
+    githubRepo = "https://github.com/chinanf-boy/html-css-list"
+    editBtn = true
+    copyCode = true

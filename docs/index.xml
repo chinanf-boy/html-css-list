@@ -18,11 +18,9 @@
       
       <guid>./2019/03/17/%E5%A6%82%E4%BD%95%E5%B1%85%E4%B8%AD%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E7%BB%88%E7%BB%93%E7%89%88/</guid>
       <description>来源 收录日期     前端大全 2019.3.17     作者：前端工匠公号 / 浪里行舟 （本文来自作者投稿）
- 前言 本文主要介绍水平居中，垂直居中，还有水平垂直居中各种办法，思维导图如下：
-一、水平居中 1.行内元素水平居中 利用 text-align: center 可以实现在块级元素内部的行内元素水平居中。此方法对 inline、inline-block、inline-table 和 inline-flex 元素水平居中都有效。
-.parent { /* 在父容器设置 */ text-align: center; }  此外，如果块级元素内部包着也是一个块级元素，我们可以先将其由块级元素改变为行内块元素，再通过设置行内块元素居中以达到水平居中。
-&amp;lt;div class=&amp;quot;parent&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;child&amp;quot;&amp;gt;Demo&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;style&amp;gt; .parent { text-align: center; } .child { display: inline-block; } &amp;lt;/style&amp;gt;  2.块级元素的水平居中 这种情形可以有多种实现方式，下面我们详细介绍:
-① 将该块级元素左右外边距 margin-left 和 margin-right 设置为 auto .</description>
+ 一、水平居中 1.行内元素水平居中 利用 text-align: center 可以实现在块级元素内部的行内元素水平居中。此方法对 inline、inline-block、inline-table 和 inline-flex 元素水平居中都有效。
+.parent { /* 在父容器设置 */ text-align: center; }  此外，如果块级元素内部包着也是一个块级元素，我们可以先将其，由块(block)级元素改变为行内块(inline-block)元素，再通过设置行内块元素居中以达到水平居中。
+&amp;lt;div class=&amp;quot;parent&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;child&amp;quot;&amp;gt;Demo&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;style&amp;gt; .parent { text-align: center; } .child { display: inline-block; } &amp;lt;/style&amp;gt;  Demo-1   .parent-1 { text-align: center; background-color: pink; } .child-1 { display: inline-block; }  2.</description>
     </item>
     
     <item>

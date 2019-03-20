@@ -1,4 +1,4 @@
-baseURL = "."
+baseURL = "/"
 languageCode = "zh-CN"
 title = "留存-关于 HTMl + Css 的技巧与示例"
 theme = "yinwang"
@@ -26,3 +26,4 @@ publishDir= "docs"
     githubRepo = "https://github.com/chinanf-boy/html-css-list"
     editBtn = true
     copyCode = true
+    anchorLink = "¶"
